@@ -1,0 +1,168 @@
+:root {
+    --primary-color:  #557CBC!important;
+    --secondary-color: #ffffff !important;
+}
+.bg-secondary {
+    background-color: var(--secondary-color) !important;
+}
+
+
+
+
+
+/*navbar*/
+
+.navbar-container {
+  padding-top: 1.25rem !important;
+} 
+
+.bgimg{
+    background-image: url('BlogPost.png') !important;
+    background-position: center center !important;
+    background-size: cover !important;
+    width: 100% !important;
+    height: 140vh !important;
+   
+}
+div.transbox::before{
+  content: "";
+  background-color: var(--primary-color);
+  opacity: 0.4;
+  
+ 
+  position: absolute;
+  top: 0%;
+  right: 0%;
+  bottom: 0%;
+  left: 0;
+  height: 140vh;
+ 
+  
+}
+
+.btn-signup{
+    color:var(--secondary-color);
+    background-color: var(--primary-color);
+}
+.btn-signup:hover{
+  color: var(--secondary-color);
+}
+
+ 
+  /*hamburger*/
+  .topnav #myLinks {
+    display: none;
+    
+  }
+  
+  .topnav a {
+    color: black;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 1.06rem;
+    display: block;
+   
+  }
+  .topnav a.icon {
+    
+    display: block;
+  }
+
+  .fa { 
+   margin-right: 2.81rem;
+  -webkit-font-smoothing: antialiased;
+    margin-top: 1.06rem;
+  }
+
+.nav-icon{
+  color: var(--primary-color)!important;
+}
+
+div.transbox p{
+  font-family: Ropa Sans;
+font-style: italic;
+font-weight: bolder;
+font-size: 142px;
+line-height: 190px;
+text-transform: uppercase;
+color:var(--secondary-color) !important;
+position: relative;
+text-align: center;
+}
+
+.partner{
+  padding-top: 11.25rem;
+}
+.in-this,h1{
+  font-family: 'Ropa Sans', sans-serif;
+  font-style: italic;
+  font-weight: normal;
+  font-size: 160px;
+  line-height: 161px;
+   color: var(--secondary-color);
+  text-transform: uppercase;
+  color: transparent;
+  -webkit-text-stroke: 4px white;
+  position: relative;
+  text-align: center;
+}
+
+#fund-us{
+  height: 25rem;
+  width: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
+}
+
+#fund-us h1 {
+ font-family: Ropa Sans;
+font-style: italic;
+font-weight: normal;
+font-size: 150px;
+line-height: 161px;
+text-transform: uppercase;
+padding-right: 3.75rem;
+vertical-align: middle;
+color: #FFFFFF;
+
+}
+.fund{
+  background-color: var(--primary-color);
+  opacity: 0.6;
+  margin-right: -3rem;
+  height: 9.68rem;
+  width: 26.43rem;
+  clip-path: polygon(100% 0, 91% 35%, 91% 97%, 0 100%, 0 0);
+  
+}
+
+.us{
+  background: #454545;
+  opacity: 0.6;
+  height: 9.68rem;
+  margin-top: 3.12rem;
+  width: 25rem;
+  text-align: start;
+  clip-path: polygon(8% 0, 100% 0, 100% 100%, 0 99%, 8% 67%);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 576px){
+
+    .brand {
+         flex-basis: 60% !important;
+     }
+    }
+    
