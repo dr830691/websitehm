@@ -179,8 +179,8 @@
                 item = sliderItems.eq(0).detach();
                 item.appendTo('#slider');
 
-                sliderItems = $('#slider').children();
-                sliderItems.eq(0).click();
+                sliderItem = $('#slider :first-child').tab('show');
+                console.log(sliderItem)
             });
         })
     </script>
