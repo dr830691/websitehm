@@ -20,7 +20,7 @@
     background-image: url('BlogPost.png') !important;
     background-position: center center !important;
     background-size: cover !important;
-    width: 100% !important;
+    max-width: 100% !important;
     height: 140vh !important;
    
 }
@@ -28,8 +28,6 @@ div.transbox::before{
   content: "";
   background-color: var(--primary-color);
   opacity: 0.4;
-  
- 
   position: absolute;
   top: 0%;
   right: 0%;
@@ -64,7 +62,6 @@ div.transbox::before{
    
   }
   .topnav a.icon {
-    
     display: block;
   }
 
@@ -79,11 +76,11 @@ div.transbox::before{
 }
 
 div.transbox p{
-  font-family: Ropa Sans;
+font-family: Ropa Sans;
 font-style: italic;
 font-weight: bolder;
-font-size: 142px;
-line-height: 190px;
+font-size:10vw;
+line-height: 12vw;
 text-transform: uppercase;
 color:var(--secondary-color) !important;
 position: relative;
@@ -91,14 +88,14 @@ text-align: center;
 }
 
 .partner{
-  padding-top: 11.25rem;
+  padding-top: 13.25rem;
 }
 .in-this,h1{
   font-family: 'Ropa Sans', sans-serif;
   font-style: italic;
   font-weight: normal;
-  font-size: 160px;
-  line-height: 161px;
+  font-size: 10vw;
+  line-height: 12vw;
    color: var(--secondary-color);
   text-transform: uppercase;
   color: transparent;
@@ -107,23 +104,23 @@ text-align: center;
   text-align: center;
 }
 
-#fund-us{
+.fund-us {
   height: 25rem;
-  width: auto;
+  width: fit-content;
   display: flex;
   align-items: center;
+  margin: auto;
   justify-content: center;
-  
+ 
 }
 
-#fund-us h1 {
+.fund-us h1 {
  font-family: Ropa Sans;
 font-style: italic;
 font-weight: normal;
 font-size: 150px;
 line-height: 161px;
 text-transform: uppercase;
-padding-right: 3.75rem;
 vertical-align: middle;
 color: #FFFFFF;
 
@@ -131,21 +128,22 @@ color: #FFFFFF;
 .fund{
   background-color: var(--primary-color);
   opacity: 0.6;
-  margin-right: -3rem;
-  height: 9.68rem;
+  padding-right: 6%;
+
   width: 26.43rem;
   clip-path: polygon(100% 0, 91% 35%, 91% 97%, 0 100%, 0 0);
-  
+ 
 }
 
 .us{
   background: #454545;
   opacity: 0.6;
-  height: 9.68rem;
-  margin-top: 3.12rem;
+ 
+  margin-top: 6.12rem;
   width: 25rem;
   text-align: start;
   clip-path: polygon(8% 0, 100% 0, 100% 100%, 0 99%, 8% 67%);
+ 
 }
 
 
@@ -159,10 +157,31 @@ color: #FFFFFF;
 
 
 
-@media (max-width: 576px){
+@media only screen and  (max-width: 576px){
 
     .brand {
          flex-basis: 60% !important;
      }
-    }
+     .partner {
+      padding-top: 26.25rem;
+  }
+  .in-this,h1{ 
+  -webkit-text-stroke: 2px white;
+  }
+  
+  .fund-us {
+    width: 10vw;
+    display: flex;
+  }
+  .fund-us h1 {
+    font-size: 5.62rem;
+    line-height: normal;
     
+  }
+  .us{
+    padding: 0 3.12rem 0 1.06rem;
+  }
+  .fund{
+    padding-right: 2.25rem;
+  }
+    }
