@@ -183,10 +183,14 @@
          })*/
         document.addEventListener('DOMContentLoaded', () => {
             document.getElementById('btn-next').addEventListener('click', () => {
+                document.getElementById('btn-next').disabled = true;
                 let sliderItem = document.querySelector('#slider :first-child');
-                sliderItem.remove();
-                document.getElementById('slider').appendChild(sliderItem);
-                document.querySelector('#slider :first-child').click();
+                let sliderItems = document.getElementById('slider');
+                sliderItems.appendChild(sliderItem);
+                setTimeout(() => {
+                    document.querySelector('#slider :first-child').click();
+                    document.getElementById('btn-next').disabled = false;
+                },200)
             })
         });
 
