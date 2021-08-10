@@ -1,0 +1,148 @@
+/*navbar*/
+.navbar-container {
+  padding-top: 1.25rem !important;
+} 
+
+.nav-modal {
+ 
+}
+
+#enquiry-form {
+  padding: 1rem !important;
+  padding-right: 0 !important;
+  font-family: Ropa Sans !important;
+}
+
+#enquiry-form h3{
+
+}
+
+#enquiry-form .form-control {
+  background-color: transparent !important;
+  color: #fff !important;
+  border: none !important;
+  border-radius: 0 !important;
+  border-bottom: 3px solid var(--secondary-color) !important;
+}
+
+#enquiry-form .form-control:focus {
+  box-shadow: none !important;
+}
+
+#enquiry-form .form-control::placeholder {
+  color: #E5E5E5 !important;
+}
+
+#enquiry-form .btn {
+  background-color: var(--secondary-color) !important;
+  border-radius: 0 !important;
+}
+
+.nav-icon{
+  color: var(--primary-color)!important;
+  padding: 0.5rem !important;
+}
+  
+.nav-icon i{
+  padding-right: 1rem !important;
+}
+
+.bgimg{
+  background-image: url('../../images/background_img.jpg') !important;
+  background-position: bottom center !important;
+  background-size: cover !important;
+  width: 100% !important;
+  height: 120vh !important;
+  clip-path: polygon(0 0, 0 100%, 100% 80%, 100% 0);   
+}
+
+.helpy,.moto {
+  font-family: 'Ropa Sans', sans-serif;
+  font-style: italic;
+  font-weight: normal;
+  font-size: 160px;
+  line-height: 161px;
+  color: var(--secondary-color);
+  text-transform: uppercase;
+  color: transparent;
+  -webkit-text-stroke: 4px white;
+  padding: 3rem !important;
+}
+
+.helpy {
+  position: absolute !important;
+  top: 0 !important;
+  right: 0 !important;
+}
+
+.moto {
+  position: absolute !important;
+  bottom: 0 !important;
+  left: 0 !important;
+}
+
+.bgimg h2{
+  font-family: 'Tomorrow', sans-serif;
+  font-style: normal;
+  font-size: 60px;
+  line-height: 72px;
+  color: var(--secondary-color);
+}
+
+.bgimg h3{
+  font-family: 'Tomorrow', sans-serif;
+  font-size: 30px;
+  line-height: 43px;
+  color: var(--secondary-color);
+}
+
+.btn-reachus{
+  color: var(--primary-color);
+  background-color: var(--secondary-color);
+  font-weight: bold;
+  font-family: sans-serif;
+}
+
+.btn-reachus:focus{
+  opacity: 0.7 !important;
+  box-shadow: none !important;
+}
+
+.btn-signup{
+  color:var(--secondary-color);
+  background-color: var(--primary-color);
+  margin-right: 27px;
+}
+
+.btn-signup:hover{
+  color: var(--secondary-color);
+}
+
+.btn-reachus:hover{
+  color: var(--primary-color);
+}
+ 
+.topnav a {
+  color: var(--bs-dark);
+  text-decoration: none;
+  font-size: 1.25rem !important;
+  display: block; 
+  text-transform: uppercase !important;
+  padding: 0.5rem !important;
+}
+  
+.topnav a.icon {
+  display: block;
+}
+
+.fa { 
+  margin-right: 2.81rem;
+  -webkit-font-smoothing: antialiased;
+  margin-top: 1.06rem;
+}
+
+@media (max-width: 576px){
+  .brand {
+    flex-basis: 60% !important;
+  }
+}    
