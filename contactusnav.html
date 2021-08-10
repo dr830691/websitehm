@@ -21,9 +21,9 @@
         <link href="https://fonts.googleapis.com/css2?family=Tomorrow:wght@600&display=swap" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css2?family=Ropa+Sans&display=swap" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css2?family=Tomorrow&display=swap" rel="stylesheet">
-
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
        
-    <link rel="stylesheet" href="aboutusnavbar.css">
+    <link rel="stylesheet" href="contactusnav.css">
 </head>
 <body class="bg-secondary">
     <!-- Navbar -->
@@ -63,23 +63,54 @@
   <div class="blank">
 
   </div>
-    <section class="contaner-fluid h-100 ">
+    <section class="contaner-fluid h-100  ">
+      <img src="loacationmap.png" width="100%">
 <div class="row row-1">
-  <div class="col-lg-6 aboutus-1">
-    <h5>ABOUT US</h5>
-    <h1>Get Service</h1>
-    <h1>Any Time, Any place</h1>
+  <div class="col-lg-6 contactus-1">
+    <h4>Get In Touch</h4>
+    <br><br>
+    <p>Send us a message or reach us by phone during our regular working time...</p>
     <br>
-    <h4>For Your Journeys</h4>
+    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry'</p>
   </div>
-  <div class="col-lg-6 aboutus-2">
-    <img src="indiamap.png" height="600">
+  <div class="col-lg-6 contactus-2">
+    <div class="container form-container">
+      <form  method="POST" id="my-form">
+  
+        <div class="form-group">
+      
+          <input class="cu-form" type="text" placeholder="Name" id="firstName" name="firstName">
+        </div>
+
+  
+        <div class="form-group">
+      
+          <input class="cu-form" type="email" placeholder="Email" id="email" name="email">
+        </div>
+
+        <div class="form-group">
+        
+          <input class="cu-form " type="text" placeholder="Phone no" id="lastName " name="lastName">
+        </div>
+
+        <div class="form-group">
+          
+          <textarea class="cu-textarea " name="massage" placeholder="Message" id="massage" cols="30" rows="6"></textarea>
+        </div>
+  
+        <button type="button" class="btn btn-form btn-lg cu-btn">Submit</button>
+      </form>
+    </div>
+    <div id="status"></div>
   </div>
 </div>
-
-
-    </section>
-
+</section>
+<div class="container social-media align-text-center">
+  <h4>Reach Us On Social Medias</h4>
+  <a href="#" class="cu-icon"><i class="fab fa-5x fa-twitter"></i></a>
+    <a href="#" class="cu-icon"><i class="fab fa-5x fa-facebook-f"></i></a>
+      <a href="#" class="cu-icon"><i class="fab  fa-5x fa-instagram-square"></i></a>
+</div>
 
 <script>function myFunction() {
     var x = document.getElementById("myLinks");
