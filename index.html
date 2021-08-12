@@ -33,6 +33,8 @@
     <link rel="stylesheet" href="css/navbar.css">
     <link rel="stylesheet" href="css/joinus.css">
     <link rel="stylesheet" href="css/services.css">
+    <link rel="stylesheet" href="css/growtogether.css">
+    <link rel="stylesheet" href="css/app.css">
     <link rel="stylesheet" href="css/footer.css">
 </head>
 
@@ -41,14 +43,13 @@
     <header class="sticky-top ">
         <nav class="navbar navbar-expand-lg navbar-light bg-secondary nav-1">
             <div class="container-fluid navbar-container">
-                <a class="navbar-brand brand" href="#">
-                    <img src="images/logo_HM.png" alt="helpy motto brand image"
-                        class="logo d-inline-block align-text-top ">
+                <a class="navbar-brand me-auto" href="#">
+                    <img class="img-fluid" src="images/logo_HM.png" alt="helpy motto brand image">
                 </a>
-                <a class="btn btn-signup ms-auto" href="#" role="button">Sign Up</a>
+                <a class="btn btn-signup " href="#" role="button">Sign Up</a>
                 <!-- "Hamburger menu" / "Bar icon" to toggle the navigation links -->
-                <div class="btn" data-bs-toggle="modal" data-bs-target="#exampleModal">
-                    <i class="fa fa-2x fa-bars my-auto"></i>
+                <div class="btn btn-bars" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                    <i class="mx-auto fa fa-2x fa-bars my-auto"></i>
                 </div>
             </div>
         </nav>
@@ -105,27 +106,29 @@
         </div>
     </div>
     <div class="bgimg">
-        <div class="container-fluid position-relative  h-100 d-flex justify-content-start align-items-center">
-            <h1 class="helpy">Helpy</h1>
-            <div class="ps-5">
+        <div
+            class="container-fluid vh-100 d-flex justify-content-start align-items-center flex-column justify-content-md-between">
+            <h1 class="order-1 order-md-1 helpy align-self-md-end">Helpy</h1>
+            <div class="order-3 order-md-2 ps-md-5 align-self-md-start">
                 <h2>HIRE THE BEST</h2>
                 <h3>For Your Journeys</h3>
                 <button type="button" class="btn btn-lg btn-reachus">Reach Us</button>
             </div>
-            <h1 class="moto">Moto</h1>
+            <h1 class="order-2 order-md-3 moto align-self-md-start">Moto</h1>
         </div>
     </div>
 
     <!-- join us section-->
     <div class="joinus">
         <div class="joinus-content">
-            <div class="image">
-                <img src="images/Mechanic.jpg" alt="Mechanic">
+            <div class="joinus-image">
             </div>
-            <div class="maintext">
-                <h3>Join us Now</h3>
-                <p>Register Yourself As A <span>Mechanic</span></p>
-                <a href="#" class="button">Register</a>
+            <div class="joinus-maintext">
+                <div>
+                    <h3>Join us Now</h3>
+                    <p>Register Yourself As A <span>Mechanic</span></p>
+                    <a href="#" class="btn btn-register">Register</a>
+                </div>
             </div>
         </div>
     </div>
@@ -245,82 +248,117 @@
         </div>
     </div>
 
+    <!-- Grow Together-->
+    <div class="grow-together">
+        <div class="grow-together-content">
+            <div class="grow-together-image">
+            </div>
+            <div class="grow-together-maintext">
+                <div>
+                    <h3>Let's Grow Together</h3>
+                    <p>Start Your Journey With Us And Get Exponential Profits</p>
+                    <a href="#" class="btn btn-support-us">Support us</a>
+                </div>
+            </div>
+        </div>
+    </div>
 
+    <!--App Section-->
+    <div class="container">
+        <div class="row vh-100">
+            <div class="col d-flex justify-content-center">
+                <img class="img-fluid" src="images/Group 564.svg" style="width:100%">
+            </div>
+            <div class="col download h-100">
+                <div class="vh-100 container-fluid d-flex justify-content-center align-items-center">
+                    <div>
+                        <h1>Download Our App</h1>
+                        <p> get helpy moto services on your phone and hire us on the go.
+                        <p>checkout the helpy moto app.</p>
+                        <button class="btn btn-download">Download</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--Footer-->
     <div class="container-fluid above-footer-container">
         <div class="above-footer-line-1">In Trouble? Let Us Help</div>
         <div class="above-footer-line-2">Stuck On The Road? Don't Worry</div>
         <button type="button" class="btn btn-primary btn-lg above-footer-btn">Hire Mechanic</button>
-      </div>
-    
-    
-      <section class="apna-footer container-fluid">
+    </div>
+
+
+    <section class="apna-footer container-fluid">
         <div class="container-fluid left-footer">
-          <div class="footer-logo-HM">
-            <img class="footer-logo-image" src="images/Logo.svg" alt="Logo">
-            <div class="beside-logo-text">
-              <div>For Unstoppable</div>
-              <div> Journeys</div>
+            <div class="footer-logo-HM">
+                <img class="footer-logo-image" src="images/Logo.svg" alt="Logo">
+                <div class="beside-logo-text">
+                    <div>For Unstoppable</div>
+                    <div> Journeys</div>
+                </div>
             </div>
-          </div>
-    
-          <div class="below-logo-text">Helpy Moto</div>
-          <div class="container social-media-footer-logos">
-            <div class="twitter-logo foot-log">
-              <a href="">
-                <img src="images/twitter.svg" alt="">
-              </a>
+
+            <div class="below-logo-text">Helpy Moto</div>
+            <div class="container social-media-footer-logos">
+                <div class="twitter-logo foot-log">
+                    <a href="">
+                        <img src="images/twitter.svg" alt="">
+                    </a>
+                </div>
+                <div class="facebook-logo foot-log">
+                    <a href="">
+                        <img src="images/facebook.svg" alt="">
+                    </a>
+                </div>
+                <div class="instagram-logo foot-log">
+                    <a href="">
+                        <img src="images/instagram-mid.svg" alt="">
+                    </a>
+
+                </div>
             </div>
-            <div class="facebook-logo foot-log">
-              <a href="">
-                <img src="images/facebook.svg" alt="">
-              </a>
-            </div>
-            <div class="instagram-logo foot-log">
-              <a href="">
-                <img src="images/instagram-mid.svg" alt="">
-              </a>
-    
-            </div>
-          </div>
         </div>
-    
+
         <div class="container-fluid center-footer">
-          <div class="heading-center-footer">Explore</div>
-          <div class="center-footer-contents">
-            <div class="center-footer-text">Home</div>
-            <div class="center-footer-text">About Us</div>
-            <div class="center-footer-text">Notice</div>
-            <div class="center-footer-text">Terms and Conditions</div>
-            <div class="center-footer-text">Privacy Policy</div>
-          </div>
+            <div class="heading-center-footer">Explore</div>
+            <div class="center-footer-contents">
+                <div class="center-footer-text">Home</div>
+                <div class="center-footer-text">About Us</div>
+                <div class="center-footer-text">Notice</div>
+                <div class="center-footer-text">Terms and Conditions</div>
+                <div class="center-footer-text">Privacy Policy</div>
+            </div>
         </div>
         <div class="container-fluid right-footer">
-          <div class="heading-right-footer">About</div>
-          <div class="right-footer-text">Our venture is to restore motors all over India in an efficient manner without
-            getting their car to the mechanic and saving their precious time.</div>
-    
-          <div class="right-footer-contact">
-            <div class="right-footer-call">
-              <div class="call-logo">
-                <img src="images/Call-icon.svg" alt="Call">
-              </div>
-              <div class="call-text">987654321</div>
+            <div class="heading-right-footer">About</div>
+            <div class="right-footer-text">Our venture is to restore motors all over India in an efficient manner
+                without
+                getting their car to the mechanic and saving their precious time.</div>
+
+            <div class="right-footer-contact">
+                <div class="right-footer-call">
+                    <div class="call-logo">
+                        <img src="images/Call-icon.svg" alt="Call">
+                    </div>
+                    <div class="call-text">987654321</div>
+                </div>
+                <div class="right-footer-email">
+                    <div class="email-logo">
+                        <img src="images/Email-icon.svg" alt="Call">
+                    </div>
+                    <div class="email-text">helpymoto@gmail.com</div>
+                </div>
+
             </div>
-            <div class="right-footer-email">
-              <div class="email-logo">
-                <img src="images/Email-icon.svg" alt="Call">
-              </div>
-              <div class="email-text">helpymoto@gmail.com</div>
-            </div>
-    
-          </div>
-    
+
         </div>
-    
-      </section>
+
+    </section>
     <!--services script-->
     <script>
-           document.addEventListener('DOMContentLoaded', () => {
+        document.addEventListener('DOMContentLoaded', () => {
             document.getElementById('btn-next').addEventListener('click', () => {
                 document.getElementById('btn-next').disabled = true;
                 let sliderItem = document.querySelector('#slider :first-child');
@@ -329,7 +367,7 @@
                 setTimeout(() => {
                     document.querySelector('#slider :first-child').click();
                     document.getElementById('btn-next').disabled = false;
-                },200)
+                }, 200)
             })
         });
     </script>

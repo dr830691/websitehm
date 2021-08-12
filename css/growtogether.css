@@ -1,4 +1,4 @@
-.joinus{
+.grow-together {
     height: 100vh !important;
     display: flex;
     justify-content: center;
@@ -7,7 +7,7 @@
     width: 100% !important;
 }
 
-.joinus-content{
+.grow-together-content {
     display: flex;
     background: #4A74B8;
     transform: rotate(-9.6deg) scale(1.2)!important;
@@ -15,16 +15,16 @@
     height: 20rem !important;
 }
 
-.joinus-image {
-    flex-basis:40% !important;
-    background-image: url('../images/Mechanic.jpg') !important;
+.grow-together-image {
+    flex-basis: 40% !important;
+    background-image: url('../images/business funding.jpg');
     background-position: center center !important;
     background-size: cover !important;
 }
 
-.joinus-maintext{
+.grow-together-maintext {
     flex-basis: 60% !important;
-    font-style: normal; 
+    font-style: normal;
     color: #F9FDFE;
     transform: rotate(9.6deg) scale(0.833) !important;
     display: flex !important;
@@ -32,25 +32,25 @@
     align-items: center !important;
 }
 
-.joinus-maintext h3{
+.grow-together-maintext h3 {
     font-weight: bold;
     font-family: Arial;
     font-size:2rem;
     text-transform: uppercase;
 }
 
-.joinus-maintext p{
+.grow-together-maintext p {
     align-items: center;
     font-weight: normal;
     font-family: Arial;
     font-size: 1rem;
 }
 
-.joinus-maintext span{
+.grow-together-maintext span {
     font-weight: bold;
 }
 
-.joinus-maintext a{
+.grow-together-maintext a {
     text-decoration: none;
     font-family: 'Roboto Mono', monospace;
     font-weight: bold;
@@ -58,58 +58,52 @@
     color: #4A74B8;
 }
 
-.btn-register{
+.btn-support-us {
     background: #FFFFFF;
     border-radius: 4px;
     padding: 10px 40px;
     height: fit-content;
 }
 
-.btn-register:hover{
+.btn-support-us:hover {
     color: white;
     background-color: #2c6eda;
     transition: all ease 0.2s;
     box-shadow: 5px 10px 30px rgba(255, 251, 251, 0.2);
 }
 
-@media (min-width:576px){
-    .joinus-maintext h3 {
+@media (min-width:576px) {
+    .grow-together-maintext h3 {
         font-size: 2rem;
     }
-
-    .joinus-maintext p{
+    .grow-together-maintext p {
         font-size: 1rem;
     }
-
-    .joinus-maintext a{
+    .grow-together-maintext a {
         font-size: 1rem;
     }
 }
 
-@media (min-width:768px){
-    .joinus-maintext h3 {
+@media (min-width:768px) {
+    .grow-together-maintext h3 {
         font-size: 2.5rem;
     }
-
-    .joinus-maintext p{
+    .grow-together-maintext p {
         font-size: 1.5rem;
     }
-
-    .joinus-maintext a{
+    .grow-together-maintext a {
         font-size: 1.5rem;
     }
 }
 
-@media (min-width:992px){
-    .joinus-maintext h3 {
+@media (min-width:992px) {
+    .grow-together-maintext h3 {
         font-size: 3rem;
     }
-
-    .joinus-maintext p{
+    .grow-together-maintext p {
         font-size: 2rem;
     }
-
-    .joinus-maintext a{
+    .grow-together-maintext a {
         font-size: 2rem;
     }
 }
