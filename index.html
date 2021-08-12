@@ -1,0 +1,376 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Helpy Moto</title>
+
+    <!--Bootstrap css-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <!--Font awesome css-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.3.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+        integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!--Bootstrap js-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"
+        integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <!--Google fonts-->
+    <link href="https://fonts.googleapis.com/css2?family=Tomorrow:wght@600&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Ropa+Sans&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@500&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="css/theme.css">
+    <link rel="stylesheet" href="css/navbar.css">
+    <link rel="stylesheet" href="css/joinus.css">
+    <link rel="stylesheet" href="css/services.css">
+    <link rel="stylesheet" href="css/growtogether.css">
+    <link rel="stylesheet" href="css/app.css">
+    <link rel="stylesheet" href="css/footer.css">
+</head>
+
+<body class="bg-secondary">
+    <!-- Navbar -->
+    <header class="sticky-top ">
+        <nav class="navbar navbar-expand-lg navbar-light bg-secondary nav-1">
+            <div class="container-fluid navbar-container">
+                <a class="navbar-brand me-auto" href="#">
+                    <img class="img-fluid" src="images/logo_HM.png" alt="helpy motto brand image">
+                </a>
+                <a class="btn btn-signup " href="#" role="button">Sign Up</a>
+                <!-- "Hamburger menu" / "Bar icon" to toggle the navigation links -->
+                <div class="btn btn-bars" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                    <i class="mx-auto fa fa-2x fa-bars my-auto"></i>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <!-- Modal -->
+    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered modal-lg">
+            <div class="modal-content rounded-0 nav-modal">
+                <div class="modal-body p-0">
+                    <div class="container-fluid">
+                        <div class="row">
+                            <div class="topnav d-flex flex-column col ps-3 align-content-stretch">
+                                <div class="flex-fill"><a href="#news">Home</a></div>
+                                <div class="flex-fill"><a href="#contact">About</a></div>
+                                <div class="flex-fill"> <a href="#about">Hire</a></div>
+                                <div class="flex-fill"> <a href="#about">Funding</a></div>
+                                <div class="flex-fill"><a href="#about">Contact</a></div>
+                                <div class="nav-icon flex-fill">
+                                    <i class="fab fa-twitter fa-lg"></i>
+                                    <i class="fab fa-facebook fa-lg"></i>
+                                    <i class="fab fa-instagram-square fa-lg"></i>
+                                </div>
+                            </div>
+                            <div class="d-flex bg-primary p-3 col">
+                                <div class="flex-fill">
+                                    <form id="enquiry-form">
+                                        <div>
+                                            <h3 class="text-light">Send a Enquiry</h3>
+                                        </div>
+                                        <div class="mb-3">
+                                            <input class="form-control" type="text" placeholder="Name">
+                                        </div>
+                                        <div class="mb-3">
+                                            <input class="form-control" type="email" placeholder="Email">
+                                        </div>
+                                        <div class="mb-3">
+                                            <textarea class="form-control" placeholder="Enquiry"></textarea>
+                                        </div>
+                                        <div class="mb-3">
+                                            <!--For messages-->
+                                        </div>
+                                        <div class="mb-3">
+                                            <input class="btn w-100" type="submit" name="submt" value="Submit">
+                                        </div>
+                                    </form>
+                                </div>
+                                <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal"
+                                    aria-label="Close"></button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="bgimg">
+        <div
+            class="container-fluid vh-100 d-flex justify-content-start align-items-center flex-column justify-content-md-between">
+            <h1 class="order-1 order-md-1 helpy align-self-md-end">Helpy</h1>
+            <div class="order-3 order-md-2 ps-md-5 align-self-md-start">
+                <h2>HIRE THE BEST</h2>
+                <h3>For Your Journeys</h3>
+                <button type="button" class="btn btn-lg btn-reachus">Reach Us</button>
+            </div>
+            <h1 class="order-2 order-md-3 moto align-self-md-start">Moto</h1>
+        </div>
+    </div>
+
+    <!-- join us section-->
+    <div class="joinus">
+        <div class="joinus-content">
+            <div class="joinus-image">
+            </div>
+            <div class="joinus-maintext">
+                <div>
+                    <h3>Join us Now</h3>
+                    <p>Register Yourself As A <span>Mechanic</span></p>
+                    <a href="#" class="btn btn-register">Register</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--Services section-->
+    <div
+        class="services-container container-fluid vh-100 bg-secondary d-flex flex-column flex-sm-row align-items-center justify-content-center">
+        <div class="services-heading">
+            <h1 class="services-heading-v-sm">Range of Services Available</h1>
+        </div>
+        <div class="services d-flex flex-row align-items-start">
+            <div class="services-nav">
+                <div id="slider" class="nav flex-column nav-pills overflow-hidden" id="v-pills-tab" role="tablist"
+                    aria-orientation="vertical">
+                    <div class="nav-link ratio ratio-1x1" id="v-pills-engine-tab" data-bs-toggle="pill"
+                        data-bs-target="#v-pills-engine" role="tab"></div>
+                    <div class="nav-link ratio ratio-1x1" id="v-pills-tyre-tab" data-bs-toggle="pill"
+                        data-bs-target="#v-pills-tyre" role="tab"></div>
+                    <div class="nav-link ratio ratio-1x1" id="v-pills-dent-tab" data-bs-toggle="pill"
+                        data-bs-target="#v-pills-dent" role="tab"></div>
+                    <div class="nav-link ratio ratio-1x1" id="v-pills-lights-tab" data-bs-toggle="pill"
+                        data-bs-target="#v-pills-lights" role="tab"></div>
+                    <div class="nav-link ratio ratio-1x1" id="v-pills-ac-tab" data-bs-toggle="pill"
+                        data-bs-target="#v-pills-ac" role="tab"></div>
+                </div>
+                <button id="btn-next" class="btn">
+                    <span class="d-block"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                            fill="currentColor" class="bi bi-arrow-down" viewBox="0 0 16 16">
+                            <path fill-rule="evenodd"
+                                d="M8 1a.5.5 0 0 1 .5.5v11.793l3.146-3.147a.5.5 0 0 1 .708.708l-4 4a.5.5 0 0 1-.708 0l-4-4a.5.5 0 0 1 .708-.708L7.5 13.293V1.5A.5.5 0 0 1 8 1z" />
+                        </svg></span>
+                    <span class="d-none"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                            fill="currentColor" class="bi bi-arrow-up" viewBox="0 0 16 16">
+                            <path fill-rule="evenodd"
+                                d="M8 15a.5.5 0 0 0 .5-.5V2.707l3.146 3.147a.5.5 0 0 0 .708-.708l-4-4a.5.5 0 0 0-.708 0l-4 4a.5.5 0 1 0 .708.708L7.5 2.707V14.5a.5.5 0 0 0 .5.5z" />
+                        </svg></span>
+                    <span class="d-block">Scroll</span>
+                </button>
+            </div>
+            <div class="services-tab-content tab-content" id="v-pills-tabContent">
+                <div class="tab-pane fade show active" id="v-pills-engine" role="tabpanel">
+                    <div class="d-flex flex-column flex-md-row">
+                        <div class="tab-img ratio ratio-1x1">
+                            <img src="images/services/Engine.jpg" class="img-fluid">
+                        </div>
+                        <div class="services-content">
+                            <h2>Engine Repairs</h2>
+                            <p>
+                                A motor vehicle service or tune-up is a series of maintenance procedures carried out at
+                                a
+                                set time interval or after the vehicle has traveled a certain distance.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="tab-pane fade" id="v-pills-tyre" role="tabpanel">
+                    <div class="d-flex flex-column flex-lg-row">
+                        <div class="tab-img ratio ratio-1x1">
+                            <img src="images/services/tyre.jpg" class="img-fluid">
+                        </div>
+                        <div class="services-content">
+                            <h2>Tyre Repairs</h2>
+                            <p>
+                                A motor vehicle service or tune-up is a series of maintenance procedures carried out at
+                                a
+                                set time interval or after the vehicle has traveled a certain distance.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="tab-pane fade" id="v-pills-dent" role="tabpanel" aria-labelledby="v-pills-messages-tab">
+                    <div class="d-flex flex-column flex-lg-row">
+                        <div class="tab-img ratio ratio-1x1">
+                            <img src="images/services/Dent.jpg" class="img-fluid">
+                        </div>
+                        <div class="services-content">
+                            <h2>Dent Repairs</h2>
+                            <p>
+                                A motor vehicle service or tune-up is a series of maintenance procedures carried out at
+                                a
+                                set time interval or after the vehicle has traveled a certain distance.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="tab-pane fade" id="v-pills-lights" role="tabpanel" aria-labelledby="v-pills-settings-tab">
+                    <div class="d-flex flex-column flex-lg-row">
+                        <div class="tab-img ratio ratio-1x1">
+                            <img src="images/services/lights.jpg" class="img-fluid">
+                        </div>
+                        <div class="services-content">
+                            <h2>Lights Repairs</h2>
+                            <p>
+                                A motor vehicle service or tune-up is a series of maintenance procedures carried out at
+                                a
+                                set time interval or after the vehicle has traveled a certain distance.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="tab-pane fade" id="v-pills-ac" role="tabpanel" aria-labelledby="v-pills-settings-tab">
+                    <div class="d-flex flex-column flex-lg-row">
+                        <div class="tab-img ratio ratio-1x1">
+                            <img src="images/services/Ac.jpg" class="img-fluid">
+                        </div>
+                        <div class="services-content">
+                            <h2>AC Repairs</h2>
+                            <p>
+                                A motor vehicle service or tune-up is a series of maintenance procedures carried out at
+                                a
+                                set time interval or after the vehicle has traveled a certain distance.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Grow Together-->
+    <div class="grow-together">
+        <div class="grow-together-content">
+            <div class="grow-together-image">
+            </div>
+            <div class="grow-together-maintext">
+                <div>
+                    <h3>Let's Grow Together</h3>
+                    <p>Start Your Journey With Us And Get Exponential Profits</p>
+                    <a href="#" class="btn btn-support-us">Support us</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--App Section-->
+    <div class="container">
+        <div class="row vh-100">
+            <div class="col d-flex justify-content-center">
+                <img class="img-fluid" src="images/Group 564.svg" style="width:100%">
+            </div>
+            <div class="col download h-100">
+                <div class="vh-100 container-fluid d-flex justify-content-center align-items-center">
+                    <div>
+                        <h1>Download Our App</h1>
+                        <p> get helpy moto services on your phone and hire us on the go.
+                        <p>checkout the helpy moto app.</p>
+                        <button class="btn btn-download">Download</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--Footer-->
+    <div class="container-fluid above-footer-container">
+        <div class="above-footer-line-1">In Trouble? Let Us Help</div>
+        <div class="above-footer-line-2">Stuck On The Road? Don't Worry</div>
+        <button type="button" class="btn btn-primary btn-lg above-footer-btn">Hire Mechanic</button>
+    </div>
+
+
+    <section class="apna-footer container-fluid">
+        <div class="container-fluid left-footer">
+            <div class="footer-logo-HM">
+                <img class="footer-logo-image" src="images/Logo.svg" alt="Logo">
+                <div class="beside-logo-text">
+                    <div>For Unstoppable</div>
+                    <div> Journeys</div>
+                </div>
+            </div>
+
+            <div class="below-logo-text">Helpy Moto</div>
+            <div class="container social-media-footer-logos">
+                <div class="twitter-logo foot-log">
+                    <a href="">
+                        <img src="images/twitter.svg" alt="">
+                    </a>
+                </div>
+                <div class="facebook-logo foot-log">
+                    <a href="">
+                        <img src="images/facebook.svg" alt="">
+                    </a>
+                </div>
+                <div class="instagram-logo foot-log">
+                    <a href="">
+                        <img src="images/instagram-mid.svg" alt="">
+                    </a>
+
+                </div>
+            </div>
+        </div>
+
+        <div class="container-fluid center-footer">
+            <div class="heading-center-footer">Explore</div>
+            <div class="center-footer-contents">
+                <div class="center-footer-text">Home</div>
+                <div class="center-footer-text">About Us</div>
+                <div class="center-footer-text">Notice</div>
+                <div class="center-footer-text">Terms and Conditions</div>
+                <div class="center-footer-text">Privacy Policy</div>
+            </div>
+        </div>
+        <div class="container-fluid right-footer">
+            <div class="heading-right-footer">About</div>
+            <div class="right-footer-text">Our venture is to restore motors all over India in an efficient manner
+                without
+                getting their car to the mechanic and saving their precious time.</div>
+
+            <div class="right-footer-contact">
+                <div class="right-footer-call">
+                    <div class="call-logo">
+                        <img src="images/Call-icon.svg" alt="Call">
+                    </div>
+                    <div class="call-text">987654321</div>
+                </div>
+                <div class="right-footer-email">
+                    <div class="email-logo">
+                        <img src="images/Email-icon.svg" alt="Call">
+                    </div>
+                    <div class="email-text">helpymoto@gmail.com</div>
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+    <!--services script-->
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            document.getElementById('btn-next').addEventListener('click', () => {
+                document.getElementById('btn-next').disabled = true;
+                let sliderItem = document.querySelector('#slider :first-child');
+                let sliderItems = document.getElementById('slider');
+                sliderItems.appendChild(sliderItem);
+                setTimeout(() => {
+                    document.querySelector('#slider :first-child').click();
+                    document.getElementById('btn-next').disabled = false;
+                }, 200)
+            })
+        });
+    </script>
+</body>
+
+</html>

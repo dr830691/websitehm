@@ -58,7 +58,7 @@
     flex-basis: 50% !important;
 }
 
-.services-tab-content .services-content {
+.services-tab-content .content {
     flex-basis: 70% !important;
 }
 
@@ -100,7 +100,7 @@
 }
  
 @media (min-width:768px){
-    .services-tab-content .services-content {
+    .services-tab-content .content {
         margin-left: 1rem !important;
     }
 }
