@@ -1,0 +1,161 @@
+:root {
+    --primary-color:  #557CBC!important;
+    --secondary-color: #ffffff !important;
+}
+.bg-secondary {
+    background-color: var(--secondary-color) !important;
+}
+
+
+
+
+
+/*navbar*/
+
+.navbar-container {
+  padding-top: 1.25rem !important;
+} 
+
+
+
+#enquiry-form {
+  padding: 1rem !important;
+  padding-right: 0 !important;
+  font-family: Ropa Sans !important;
+}
+
+
+
+#enquiry-form .form-control {
+  background-color: transparent !important;
+  color: #fff !important;
+  border: none !important;
+  border-radius: 0 !important;
+  border-bottom: 3px solid var(--secondary-color) !important;
+}
+
+#enquiry-form .form-control:focus {
+  box-shadow: none !important;
+}
+
+#enquiry-form .form-control::placeholder {
+  color: #E5E5E5 !important;
+}
+
+#enquiry-form .btn {
+  background-color: var(--secondary-color) !important;
+  border-radius: 0 !important;
+}
+
+.nav-icon{
+  color: var(--primary-color)!important;
+  padding: 0.5rem !important;
+}
+  
+.nav-icon i{
+  padding-right: 1rem !important;
+}
+
+
+
+
+
+
+
+.btn-signup{
+  color:var(--secondary-color);
+  background-color: var(--primary-color);
+  margin-right: 27px;
+}
+
+.btn-signup:hover{
+  color: var(--secondary-color);
+}
+
+
+ 
+.topnav a {
+  color: var(--bs-dark);
+  text-decoration: none;
+  font-size: 1.25rem !important;
+  display: block; 
+  text-transform: uppercase !important;
+  padding: 0.5rem !important;
+}
+  
+.topnav a.icon {
+  display: block;
+}
+
+.fa { 
+  margin-right: 2.81rem;
+  -webkit-font-smoothing: antialiased;
+  margin-top: 1.06rem;
+}
+
+
+
+
+
+
+
+
+
+
+.user-pro{
+  height: 120vh;
+  background-color: var(--primary-color);
+}
+.user-heading h2{
+  color: var(--secondary-color);
+  font-family: Ropa Sans;
+  font-size: 72px;
+}
+.user-heading p{
+  color: var(--secondary-color);
+  font-family: Ropa Sans;
+ font-size: 24px;
+}
+.user-heading{
+  padding: 15%;
+}
+.pro-pic{
+  padding-left: 20%;
+}
+
+
+
+
+@media only screen and  (max-width: 576px){
+
+    .brand {
+         flex-basis: 60% !important;
+     }
+     .contactus-1{
+       width: 100%;
+     }
+    .cu-form{
+      width: 75%;
+    }
+    .cu-textarea{
+      width: 75%;
+    }
+    .social-media{
+      padding-top: 30%;
+    }
+    .user-heading h2{
+      font-size: 40px;
+    }
+    .user-heading{
+      flex-direction: row-reverse;
+      text-align: center;
+    }
+    .pro-pic{
+      padding: 0%;
+      margin-bottom: 7%;
+    }
+    
+    }
+
+
+    
