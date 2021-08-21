@@ -1,0 +1,83 @@
+.contactus-1 h4 {
+  font-family: 'Roboto', sans-serif;
+  font-weight: bold;
+  font-size: 34px;
+}
+
+.contactus-1 p {
+  font-family: 'Roboto', sans-serif;
+  font-size: 24px;
+}
+
+.contactus-1 {
+  background: #557CBC;
+  height: 47.5rem;
+  padding: 15% 15% 0 10%;
+  color: var(--secondary-color);
+}
+
+.contactus-2 {
+  background-image: url(../images/formbg.png);
+  background-size: cover;
+}
+
+.row-1 {
+  margin: 0%;
+}
+
+.form-container {
+  padding: 20% 10% 0% 25%;
+}
+
+.cu-form {
+  margin: 1.25rem;
+  width: 60%;
+  height: 2.812rem;
+}
+
+.cu-textarea {
+  margin: 1.25rem;
+  width: 60%;
+}
+
+.btn-form {
+  background-color: #557CBC;
+  color: #ffffff;
+}
+
+.cu-btn {
+  margin: 1.25rem;
+}
+
+.social-media {
+  padding: 10%;
+  text-align: center;
+  height: 31.25rem;
+}
+
+.social-media h4 {
+  font-family: Roboto;
+  font-weight: bolder;
+  font-size: 30px;
+  margin-bottom: 10%;
+}
+
+.cu-icon {
+  color: #557CBC;
+  margin: 5%;
+}
+
+@media only screen and (max-width: 576px) {
+  .contactus-1 {
+    width: 100%;
+  }
+  .cu-form {
+    width: 75%;
+  }
+  .cu-textarea {
+    width: 75%;
+  }
+  .social-media {
+    padding-top: 30%;
+  }
+}
