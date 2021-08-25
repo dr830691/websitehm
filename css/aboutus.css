@@ -8,7 +8,6 @@
     display: flex !important;
     flex-direction: column !important;
     font-family: 'Tomorrow', sans-serif !important;
-    height: 100vh !important;
     justify-content: center !important;
 }
 
@@ -45,7 +44,6 @@
 /* Image */
 
 .aboutus-img {
-    height: px;
     background: url('../images/lights.jpg') no-repeat center /cover;
     margin-left: -30%;
 }
@@ -78,12 +76,13 @@
     .aboutus .content p {
         text-align: center;
         font-size: 1.3rem;
+        width: auto !important;
     }
     /* image */
     .aboutus-img {
-        width: 75%;
-        height: 20rem;
         margin: 0;
-        margin-top: -100px;
+        margin-top: -10%;
+        width: 75% !important;
+        margin-bottom: 10% !important;
     }
 }
