@@ -1,0 +1,51 @@
+.bgimg {
+    background-image: url('../images/background_img.jpg') !important;
+    background-position: center center !important;
+    background-size: cover !important;
+    width: 100% !important;
+    height: 120vh !important;
+    clip-path: polygon(0 0, 0 100%, 100% calc(100% - 0.15*100vw), 100% 0);
+}
+
+.helpy, .moto {
+    font-family: 'Ropa Sans', sans-serif;
+    font-style: italic;
+    font-weight: normal;
+    font-size: 10rem;
+    color: var(--secondary-color);
+    text-transform: uppercase;
+    color: transparent;
+    -webkit-text-stroke: 3px var(--bs-light) !important;
+    padding: 1rem !important;
+}
+
+.bgimg h2 {
+    font-family: 'Tomorrow', sans-serif;
+    font-style: normal;
+    font-size: 60px;
+    line-height: 72px;
+    color: var(--secondary-color);
+}
+
+.bgimg h3 {
+    font-family: 'Tomorrow', sans-serif;
+    font-size: 30px;
+    line-height: 43px;
+    color: var(--secondary-color);
+}
+
+.btn-reachus {
+    color: var(--primary-color);
+    background-color: var(--secondary-color);
+    font-weight: bold;
+    font-family: sans-serif;
+}
+
+.btn-reachus:focus {
+    opacity: 0.7 !important;
+    box-shadow: none !important;
+}
+
+.btn-reachus:hover {
+    color: var(--primary-color);
+}

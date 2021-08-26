@@ -1,0 +1,317 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Helpy Moto</title>
+
+    <!--Bootstrap css-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <!--Font awesome css-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.3.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+        integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!--Bootstrap js-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"
+        integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <!--Google fonts-->
+    <link href="https://fonts.googleapis.com/css2?family=Tomorrow:wght@600&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Ropa+Sans&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@500&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Tomorrow:wght@600&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Ropa+Sans&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Tomorrow&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="css/theme.css">
+    <link rel="stylesheet" href="css/navbar.css">
+    <link rel="stylesheet" href="css/contactusnav.css">
+    <link rel="stylesheet" href="css/faq_about_us.css">
+    <link rel="stylesheet" href="css/footer.css">
+</head>
+
+<body class="bg-secondary">
+    <!-- Navbar -->
+    <header class="sticky-top">
+        <nav class="navbar navbar-expand-lg navbar-light bg-secondary nav-1">
+            <div class="container-fluid navbar-container">
+                <a class="navbar-brand me-auto" href="#">
+                    <img class="img-fluid" src="images/logo_HM.png" alt="helpy motto brand image">
+                </a>
+                <a class="btn btn-signup " href="#" role="button">Sign Up</a>
+                <!-- "Hamburger menu" / "Bar icon" to toggle the navigation links -->
+                <div class="btn btn-bars" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                    <i class="mx-auto fa fa-2x fa-bars my-auto"></i>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <!-- Modal -->
+    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered modal-lg">
+            <div class="modal-content rounded-0 nav-modal">
+                <div class="modal-body p-0">
+                    <div class="container-fluid">
+                        <div class="row">
+                            <div class="topnav d-flex flex-column col ps-3 align-content-stretch">
+                                <div class="flex-fill"><a href="index.html">Home</a></div>
+                                <div class="flex-fill"><a href="about.html">About</a></div>
+                                <div class="flex-fill"> <a href="">Hire</a></div>
+                                <div class="flex-fill"> <a href="funding.html">Funding</a></div>
+                                <div class="flex-fill"><a href="contact.html">Contact</a></div>
+                                <div class="nav-icon flex-fill">
+                                    <i class="fab fa-twitter fa-lg"></i>
+                                    <i class="fab fa-facebook fa-lg"></i>
+                                    <i class="fab fa-instagram-square fa-lg"></i>
+                                </div>
+                            </div>
+                            <div class="d-flex bg-primary p-3 col">
+                                <div class="flex-fill">
+                                    <form id="enquiry-form">
+                                        <div>
+                                            <h3 class="text-light">Send a Enquiry</h3>
+                                        </div>
+                                        <div class="mb-3">
+                                            <input class="form-control" type="text" placeholder="Name">
+                                        </div>
+                                        <div class="mb-3">
+                                            <input class="form-control" type="email" placeholder="Email">
+                                        </div>
+                                        <div class="mb-3">
+                                            <textarea class="form-control" placeholder="Enquiry"></textarea>
+                                        </div>
+                                        <div class="mb-3">
+                                            <!--For messages-->
+                                        </div>
+                                        <div class="mb-3">
+                                            <input class="btn w-100" type="submit" name="submt" value="Submit">
+                                        </div>
+                                    </form>
+                                </div>
+                                <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal"
+                                    aria-label="Close"></button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <section class="contaner-fluid h-100  ">
+        <img src="images/loacationmap.png" width="100%">
+        <div class="row row-1">
+            <div class="col-lg-6 contactus-1">
+                <h4>Get In Touch</h4>
+                <br><br>
+                <p>Send us a message or reach us by phone during our regular working time...</p>
+                <br>
+                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
+                    industry'
+                </p>
+            </div>
+            <div class="col-lg-6 contactus-2">
+                <div class="container form-container">
+                    <form method="POST" id="my-form">
+
+                        <div class="form-group">
+
+                            <input class="cu-form" type="text" placeholder="Name" id="firstName" name="firstName">
+                        </div>
+
+
+                        <div class="form-group">
+
+                            <input class="cu-form" type="email" placeholder="Email" id="email" name="email">
+                        </div>
+
+                        <div class="form-group">
+
+                            <input class="cu-form " type="text" placeholder="Phone no" id="lastName " name="lastName">
+                        </div>
+
+                        <div class="form-group">
+
+                            <textarea class="cu-textarea " name="massage" placeholder="Message" id="massage" cols="30"
+                                rows="6"></textarea>
+                        </div>
+
+                        <button type="button" class="btn btn-form btn-lg cu-btn">Submit</button>
+                    </form>
+                </div>
+                <div id="status"></div>
+            </div>
+        </div>
+    </section>
+    <div class="container social-media align-text-center">
+        <h4>Reach Us On Social Medias</h4>
+        <a href="#" class="cu-icon"><i class="fab fa-5x fa-twitter"></i></a>
+        <a href="#" class="cu-icon"><i class="fab fa-5x fa-facebook-f"></i></a>
+        <a href="#" class="cu-icon"><i class="fab  fa-5x fa-instagram-square"></i></a>
+    </div>
+    <!---->
+
+    <!--FAQ-->
+    <div class="container-fluid faq_container">
+        <div class="heading_faq">
+            Frequently Asked Questions
+        </div>
+        <div class="heading_faq_description">
+            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
+            industry'
+        </div>
+        <div class="faq_container_of_questions">
+
+        </div>
+        <div class="services-content-container">
+            <div class="services-content-1-2">
+                <div class="services-content services-content-1">
+                    <img class="services-question-mark" src="images/Services-Question-mark.svg" alt="?">
+                    <div class="content-text">
+                        <div class="content-head">How much experience do your technicians have?</div>
+                        <div class="content-body">Our technicians have sufficient experience to offer you the
+                            exceptional service .We offer you with highly qualified, well-trained, confirmed and
+                            100% dependable mechanics who offer you with the exceptional service.
+                        </div>
+                    </div>
+                </div>
+                <div class="services-content services-content-2">
+                    <img class="services-question-mark" src="images/Services-Question-mark.svg" alt="?">
+                    <div class="content-text">
+                        <div class="content-head">Are your employees certified and insured?</div>
+                        <div class="content-body">Yes, our employees are absolutely certified and secure. We provide
+                            you with highly qualified, well-trained, proven and 100% reliable mechanics.
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="services-content-3-4">
+                <div class="services-content services-content-3">
+                    <img class="services-question-mark" src="images/Services-Question-mark.svg" alt="?">
+                    <div class="content-text">
+                        <div class="content-head">How long will the repair take?</div>
+                        <div class="content-body">It will definitely rely upon the disorder of your automobile. We
+                            will attempt to complete it as quick and as effectively as possible.
+
+                        </div>
+                    </div>
+                </div>
+                <div class="services-content services-content-4">
+                    <img class="services-question-mark" src="images/Services-Question-mark.svg" alt="?">
+                    <div class="content-text">
+                        <div class="content-head"> Can you provide an estimate?</div>
+                        <div class="content-body">No , first we ought to find out what is wrong with your automobile
+                            . Then only we will provide an estimate to you.
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="services-content-3-4">
+                <div class="services-content services-content-3">
+                    <img class="services-question-mark" src="images/Services-Question-mark.svg" alt="?">
+                    <div class="content-text">
+                        <div class="content-head">Will you notify me earlier than putting in extra-fee parts or
+                            further repairs?</div>
+                        <div class="content-body">Yes , we can notify you earlier than taking any further steps.
+                        </div>
+                    </div>
+                </div>
+                <div class="services-content services-content-4">
+                    <img class="services-question-mark" src="images/Services-Question-mark.svg" alt="?">
+                    <div class="content-text">
+                        <div class="content-head"> Do I want to be there for the duration of the repair?</div>
+                        <div class="content-body">Yes, someone of yours wants to maintain the repair work.
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <!--Footer-->
+    <div class="container-fluid above-footer-container">
+        <div class="above-footer-line-1">In Trouble? Let Us Help</div>
+        <div class="above-footer-line-2">Stuck On The Road? Don't Worry</div>
+        <button type="button" class="btn btn-primary btn-lg above-footer-btn">Hire Mechanic</button>
+    </div>
+
+
+    <section class="apna-footer container-fluid">
+        <div class="container-fluid left-footer">
+            <div class="footer-logo-HM">
+                <img class="footer-logo-image" src="images/Logo.svg" alt="Logo">
+                <div class="beside-logo-text">
+                    <div>For Unstoppable</div>
+                    <div> Journeys</div>
+                </div>
+            </div>
+
+            <div class="below-logo-text">Helpy Moto</div>
+            <div class="container social-media-footer-logos">
+                <div class="twitter-logo foot-log">
+                    <a href="">
+                        <img src="images/twitter.svg" alt="">
+                    </a>
+                </div>
+                <div class="facebook-logo foot-log">
+                    <a href="">
+                        <img src="images/facebook.svg" alt="">
+                    </a>
+                </div>
+                <div class="instagram-logo foot-log">
+                    <a href="">
+                        <img src="images/instagram-mid.svg" alt="">
+                    </a>
+
+                </div>
+            </div>
+        </div>
+
+        <div class="container-fluid center-footer">
+            <div class="heading-center-footer">Explore</div>
+            <div class="center-footer-contents">
+                <div class="center-footer-text">Home</div>
+                <div class="center-footer-text">About Us</div>
+                <div class="center-footer-text">Notice</div>
+                <div class="center-footer-text">Terms and Conditions</div>
+                <div class="center-footer-text">Privacy Policy</div>
+            </div>
+        </div>
+        <div class="container-fluid right-footer">
+            <div class="heading-right-footer">About</div>
+            <div class="right-footer-text">Our venture is to restore motors all over India in an efficient manner
+                without
+                getting their car to the mechanic and saving their precious time.</div>
+
+            <div class="right-footer-contact">
+                <div class="right-footer-call">
+                    <div class="call-logo">
+                        <img src="images/Call-icon.svg" alt="Call">
+                    </div>
+                    <div class="call-text">987654321</div>
+                </div>
+                <div class="right-footer-email">
+                    <div class="email-logo">
+                        <img src="images/Email-icon.svg" alt="Call">
+                    </div>
+                    <div class="email-text">helpymoto@gmail.com</div>
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+</body>
+
+</html>

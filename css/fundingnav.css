@@ -17,23 +17,24 @@
 } 
 
 .bgimg{
-  background-image: url('BlogPost.png') !important;
+  background-image: url('../images/BlogPost.png') !important;
   background-position: center center !important;
   background-size: cover !important;
-  max-width: 100% !important;
+  width: 100% !important;
   height: 140vh !important;
+  position: relative !important;
 }
 
-div.transbox::before{
+.bgimg::before{
   content: "";
   background-color: var(--primary-color);
   opacity: 0.4;
   position: absolute;
-  top: 0%;
-  right: 0%;
-  bottom: 0%;
+  top: 0;
   left: 0;
-  height: 140vh;
+  bottom: 0;
+  right:0;
+  height: 100% !important;
 }
 
 .btn-signup{
@@ -91,7 +92,7 @@ div.transbox p {
   padding-top: 13.25rem;
 }
 
-.in-this,h1{
+.in-this{
   font-family: 'Ropa Sans', sans-serif;
   font-style: italic;
   font-weight: normal;
@@ -139,6 +140,7 @@ div.transbox p {
   margin-top: 6.12rem;
   width: 25rem;
   text-align: start;
+  padding-left: 2rem;
   clip-path: polygon(8% 0, 100% 0, 100% 100%, 0 99%, 8% 67%);
 }
 
@@ -179,15 +181,26 @@ div.transbox p {
 
 @media only screen and  (max-width: 576px){
 
-  .brand {
+
+}
+
+@media (max-width: 576px){
+  .navbar-container .navbar-brand {
+    display: inline-block !important;
     flex-basis: 60% !important;
   }
-  
+
+  .btn-signup,.btn-bars {
+    padding: 0.25rem 0.5rem !important;
+    font-size: 0.875rem !important;
+    border-radius: 0.2rem !important;
+  }
+
   .partner {
     padding-top: 26.25rem;
   }
 
-  .in-this,h1{ 
+  .in-this{ 
     -webkit-text-stroke: 2px white;
   }
   
@@ -208,5 +221,13 @@ div.transbox p {
   .fund{
     padding-right: 2.25rem;
   }
+}    
+
+@media (max-width: 768px){
+
+}
+
+@media (max-width: 992px){
+
 }
 
