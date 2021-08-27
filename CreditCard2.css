@@ -11,31 +11,43 @@
 #credit-card{
     display: flex;
     flex-direction: column;
-
+    
     margin: 100px 0;
-
+    
     align-items: center;
     justify-content: center;
 }
-
 
 /* Outer Box */
 #payment{
     width: 707px;
     
     padding: 2.5rem 5rem;
-
-    border-top-right-radius: 9px;
-    border-top-left-radius: 9px;
+    
+    border-radius: 9px;
     box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.25);
-
+    
     background: #FFFFFF;
+}
+
+/* Rs. 1000 */
+.heading{
+    text-align: center;
+
+    margin-bottom: 34px;
+
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 42px;
+
+    color: #4A74B8;
 }
 
 
 /* All Inputes and their labels */
 .form .card-element{
-    margin: 3.375rem 0;
+    margin-bottom: 3.375rem;
 }
 
 /* lables */
@@ -104,23 +116,66 @@
 }
 
 
+/* OTP */
+#otp-input{
+    width: 100%;
+
+    margin-bottom: 2rem;
+
+    display: flex;
+
+    align-items: center;
+    justify-content: center;
+}
+
+#otp-input .otp-box{
+    box-sizing: border-box;
+
+    width: 72px;
+
+    padding: 20px 0;
+    margin: 0 2.75rem;
+
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.5rem;
+    line-height: 28px;
+    letter-spacing: 1px;
+
+    text-align: center;
+
+    color: #555555;
+
+    border-radius: 10px;
+    border: 1px solid #757575;
+    background: #FFFFFF;
+
+    outline: none;
+}
+
+
 /* Button */
-.btn{
+#button{
+    text-align: center;
+}
+
+.btn{    
+    padding: 18px 115px;
+    margin: 10px auto;
+
+    width: 294px;
+
     border: none;
-    padding: 28px;
-
-    width: 707px;
-
     cursor: pointer;
 
-    font-family: Roboto;
     font-style: normal;
     font-weight: bold;
-    font-size: 30px;
-    line-height: 35px;
+    font-size: 36px;
+    line-height: 42px;
+    
+    background: #4A74B8;
+    border-radius: 8px;
 
     text-align: center;
     color: #FFFFFF;
-
-    background: #4A74B8;
 }
