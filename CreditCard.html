@@ -28,6 +28,7 @@
         <div id="payment">
             <div class="form">
 
+                <!-- Card Number -->
                 <div class="card-element icon-relative">
                     <label for="card_number" class="lable">Card Number</label>
                     <input type="text" class="input" id="card_number" name="card_number"
@@ -35,6 +36,7 @@
                     <i class="far fa-credit-card"></i>
                 </div>
 
+                <!-- Expiry Date -->
                 <div class="card-element icon-relative">
                     <label for="expiry_date" class="lable">Expiry Date</label>
                     <input type="text" class="input" id="expiry_date" name="expiry_date" placeholder="MM / YY"
@@ -42,24 +44,55 @@
                     <i class="fas fa-calendar-week"></i>
                 </div>
 
+                <!-- CVV -->
                 <div class="card-element icon-relative">
-                    <label for="cvc" class="lable">CVV</label>
-                    <input type="text" class="input" id="cvc" name="cvc" placeholder="000" data-mask="000">
-                    <i class="fas fa-lock"></i>
+                    <label for="cvv" class="lable">CVV</label>
+                    <input type="password" class="input" id="cvv" name="cvv" placeholder="000" data-mask="000">
+
+                    <span onclick="myfunction()">
+                        <i id="lock-close" class="fas fa-lock"></i>
+                        <i id="lock-open" class="fas fa-lock-open"></i>
+                    </span>
                 </div>
             </div>
         </div>
 
-        <div class="btn">
+        <!-- Button -->
+        <button class="btn">
             NEXT STEP
             <i class="fas fa-arrow-right"></i>
-        </div>
+        </button>
+        
     </section>
 
 
+    <!-- javascript -->
+    <!-- JS for Card Number, Expiry Date and CVV -->
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.mask/1.14.16/jquery.mask.min.js"></script>
+
+    <!-- js for CVV Lock Icon -->
+    <script>
+        var x = document.getElementById("cvv");
+        var y = document.getElementById("lock-close");
+        var z = document.getElementById("lock-open");
+
+        function myfunction() {
+
+            if (x.type === "password"){
+                x.type = "text";
+                y.style.display = "block";
+                z.style.display = "none";
+            }
+
+            else {
+                x.type = "password";
+                y.style.display = "none";
+                z.style.display = "block";
+            }
+        }
+    </script>
 </body>
 
 </html>

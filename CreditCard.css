@@ -7,9 +7,6 @@
     font-family: 'Roboto', sans-serif;
 }
 
-/* body{
-    background: #E5E5E5;
-} */
 
 #credit-card{
     display: flex;
@@ -22,6 +19,7 @@
 }
 
 
+/* Outer Box */
 #payment{
     width: 707px;
     
@@ -34,10 +32,13 @@
     background: #FFFFFF;
 }
 
+
+/* All Inputes and their labels */
 .form .card-element{
     margin: 3.375rem 0;
 }
 
+/* lables */
 .form .lable{
     display: block;
 
@@ -51,6 +52,7 @@
     color: #5A5A5A;
 }
 
+/* inputes */
 .form .input{
     padding: 20px 60px 20px 25px;
     width: 100%;
@@ -70,6 +72,7 @@
     outline: none;
 }
 
+/* icons */
 .form .icon-relative{
     position: relative;
 }
@@ -86,6 +89,12 @@
 
     font-size: 28px;
     color: #555555;
+
+    cursor: pointer;
+}
+
+#lock-close{
+    display: none;
 }
 
 ::placeholder{
@@ -94,10 +103,15 @@
     color: #C2C2C2; 
 }
 
+
+/* Button */
 .btn{
+    border: none;
     padding: 28px;
 
     width: 707px;
+
+    cursor: pointer;
 
     font-family: Roboto;
     font-style: normal;

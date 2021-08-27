@@ -2,16 +2,21 @@
     margin: 50px 0;
 }
 
+
+/* Outer Box */
 #payment{
     width: 330px;
 
     padding: 1rem 2rem;
 }
 
+
+/* All Inputes and their labels */
 .form .card-element{
     margin: 2rem 0;
 }
 
+/* lables */
 .form .lable{
     margin: 6px;
 
@@ -19,13 +24,14 @@
     line-height: 35px;
 }
 
+/* inputes */
 .form .input{
     padding: 8px 43px 8px 11px;
 
     font-size: 1.1rem;
 }
 
-
+/* icons */
 .form .icon-relative .far,
 .form .icon-relative .fas{
     width: 40px;
@@ -37,7 +43,7 @@
     font-size: 22px;
 }
 
-
+/* Button */
 .btn{
     padding: 12px;
 
