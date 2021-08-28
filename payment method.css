@@ -1,0 +1,95 @@
+.container{
+    width:100%;
+    margin-left: 450px;
+    margin-top: 70px;
+    height:auto;
+    background-color:white;
+    justify-content: center;
+    
+}
+
+  td, th {
+   border-bottom:1px solid rgba(0, 0, 0, 0.596); 
+   margin-bottom: 40px;
+    padding-top: 16px;
+    font-family: Roboto;
+    color:rgba(0, 0, 0, 0.705);
+    text-align: left;
+    font-weight: 500px; 
+    cursor: pointer;
+    
+  }
+
+  td:hover {
+    font-weight:bolder;
+    color: black;
+  }
+  .icon{
+    color:green;
+  }
+   .om {
+       text-align: center;
+       color: #4A74B8;
+       padding-bottom: 20px;
+       font-weight: bolder;
+       font-size: 36px;
+ }   
+
+
+.payment {
+    height: 800                             px;
+    width:100%;
+    text-align: center;
+    word-spacing: 5px;
+    font-size: 30px;
+    
+  }
+  .center{
+      font-size: 30px;
+    line-height: 60px;
+    border: 1px solid rgba(0, 0, 0, 0.25);;
+    word-spacing: 5px;
+    width:40%;
+  }
+  .btn {
+    border: none; 
+    color: white; 
+    padding: 18px 230px; 
+    cursor: pointer; 
+    font-size: 23px;
+    float: left;
+    font-weight: bolder;
+  }
+  .icons:hover {
+    opacity: .5;
+}
+  
+  .success {background-color: rgba(74, 116, 184, 0.63);;} /* Green */
+  .success:hover {background-color:rgb(231, 20, 20);}
+  .arrow{
+      padding-left: 20px;
+      font-weight: bolder;
+  }
+  @media (max-width:768px){
+    .btn {
+        border: none;
+        color: white;
+        padding: 11px 111px;
+        cursor: pointer;
+        font-size: 18px;
+    }
+  
+  .center{
+    font-size: 25px;
+  line-height: 60px;
+  border: 1px solid rgba(0, 0, 0, 0.25);;
+  word-spacing: 5px;
+  width:100%;
+}
+.container{
+    width:100%;
+    height:auto;
+    background-color:white;
+    margin:0%; 
+}
+}
