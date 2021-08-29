@@ -78,7 +78,7 @@
     padding: 0.5rem;
 }
 
-.services-container .content-head {
+.content-head {
     position: relative;
     align-self: flex-start;
     font-family: 'Roboto', sans-serif;
@@ -90,7 +90,7 @@
     color: var(--secondary-color);
 }
 
-.services-container .content-body {
+.content-body {
     position: relative;
     font-family: 'Roboto', sans-serif;
     font-style: normal;
@@ -107,7 +107,7 @@
     .services-content-3-4 {
         flex-direction: column;
     }
-    .services-container .content-body {
+    .content-body {
         width: 100%;
     }
     .services-content {
